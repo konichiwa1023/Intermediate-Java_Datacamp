@@ -1,0 +1,16 @@
+class Adder {
+  public static void main(String[] args) {
+    int total = 0;
+    int i = 1;
+
+    // Correct loop keyword
+    while (total < 100) {
+      // Correct variable to store the total
+      total += i;
+      // Correct increment for odd numbers
+      i += 2;
+    }
+
+    System.out.println("We reach " + total + " when summing up to " + i);
+  }
+}
